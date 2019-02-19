@@ -1,47 +1,43 @@
 <!DOCTYPE html>
-<html lang="en" >
-
-<head>
-  <meta charset="UTF-8">
-  <title>Zadanie   8.4</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
-
-  
+<html lang="en">
+<meta charset="UTF-8">
+<title>Zadanie 13.3 gra</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-  <body>
-<header>
-  <button id="newgame-button">Nowa Gra - START</button>
+  <header>
+    <button id="newgame-button">Nowa Gra - START</button>
   </header>
-  <div><h3>Naciśnij przycisk Nowa Gra</h3>
+  <div>
+    <h3>Naciśnij przycisk Nowa Gra</h3>
   </div>
   <div class="container">
-	<button id="paper-button">Papier</button>
-</div>
-<div class="container">
-	<button id="stone-button">Kamień</button>
-</div>
+    <button id="paper-button">Papier</button>
+  </div>
+  <div class="container">
+    <button id="stone-button">Kamień</button>
+  </div>
   <div class="container">
     <button id="sciss-button">Nożyce</button>
-    </div> 
+  </div>
   <div id="output">
+  </div>
+  <div class="modal" id="resultsModal">
+    <div class="modal-body">
+      <button id="closeModal" class="closeModalBtn">X</button>
+      <table>
+        <thead>
+          <th>Numer rundy</th>
+          <th>Wynik</th>
+          <th>Wybór gracza</th>
+          <th>Wybór komputera</th>
+        </thead>
+        <tbody></tbody>
+      </table>
     </div>
- 
- 
- </body>
-  
-  
-
-    <script  src="js/index.js"></script>
-
-
-
-
+  </div>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
